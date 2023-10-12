@@ -1,6 +1,6 @@
 name: phoenix_input
 description: phoenix Flutter 企业级基础组件:Input 组件
-version: 1.0.1
+version: 1.0.2
 homepage: 'https://github.com/vsguji/phoenix_input.git'
 
 environment:
