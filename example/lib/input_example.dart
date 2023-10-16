@@ -2,7 +2,7 @@
  * @Author: lipeng 1162423147@qq.com
  * @Date: 2022-05-18 10:31:37
  * @LastEditors: lipeng 1162423147@qq.com
- * @LastEditTime: 2023-10-12 09:15:39
+ * @LastEditTime: 2023-10-16 12:36:54
  * @FilePath: /phoenix_input/example/lib/input_example.dart
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
@@ -13,16 +13,16 @@ class TextModel {
   String? text;
 }
 
-class BrnInputTextExample extends StatefulWidget {
-  BrnInputTextExample();
+class InputTextExample extends StatefulWidget {
+  InputTextExample();
 
   @override
   State<StatefulWidget> createState() {
-    return _BrnInputTextExampleState();
+    return _InputTextExampleState();
   }
 }
 
-class _BrnInputTextExampleState extends State<BrnInputTextExample> {
+class _InputTextExampleState extends State<InputTextExample> {
   TextModel model = TextModel();
 
   @override
